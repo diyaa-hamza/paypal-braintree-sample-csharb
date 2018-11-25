@@ -13,7 +13,7 @@ public class Service
      ResponseFormat = WebMessageFormat.Json)]
     string GetTokenonly()
     {
-        BraintreeGateway gateway = new BraintreeGateway("access_token$sandbox$4hymnjxcjfbp5w7w$501a3438a3e47909e49f6c8ba0e92176");
+        BraintreeGateway gateway = new BraintreeGateway("ADD YOUR ACCESS TOKEN HERE");
         string token = gateway.ClientToken.Generate();
         return token;
     }

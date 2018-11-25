@@ -5,7 +5,7 @@ public partial class Default2 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        BraintreeGateway gateway = new BraintreeGateway("access_token$sandbox$4hymnjxcjfbp5w7w$501a3438a3e47909e49f6c8ba0e92176");
+        BraintreeGateway gateway = new BraintreeGateway("ADD YOUR ACCESS TOKEN HERE");
         decimal amount = 0;
         try
         {
